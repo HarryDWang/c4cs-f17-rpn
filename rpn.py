@@ -1,6 +1,6 @@
 import operator
 
-ops = {'+': operator.add, '-': operator.sub, '^': operator.pow}
+ops = {'+': operator.add, '-': operator.sub}
 
 def calculate(myarg):
     stack = list()
