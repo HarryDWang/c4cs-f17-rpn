@@ -5,3 +5,12 @@ python:
 
 script:
   - make test
+
+install:
+  - pip install coveralls
+
+script:
+  - coverage run test_rpn.py
+
+after_success:
+  - coveralls
